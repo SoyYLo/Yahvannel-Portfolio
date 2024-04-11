@@ -1,0 +1,402 @@
+:root {
+    --primary: #118163;
+    --accent: #d45757;
+    --title: lightgray;
+    }
+    
+    Body {
+        background-color: white;
+        margin: 0;
+    }
+    
+    .header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary);
+    color: var(--dark);
+    margin: 5px;
+    text-align: right;
+    }
+    
+    .header h1 {
+        text-align: left;
+        font-family: cursive;
+        font-size: 50px;
+        margin-left: 20px;
+        margin-top: 6px;
+        padding: 10px;
+    }
+    
+    .header nav {
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 6px;
+    padding: 10px;
+    }
+
+    .header nav ul {
+        list-style-type: none;
+        margin-top: -80px;
+    }
+
+    .header nav ul li {
+        display: inline-block;
+        margin-left: 25px;
+    
+    }
+    a {
+        color: white;
+        font-family: fantasy;
+    }
+    a:hover {
+        color: lightgray;
+    }
+
+    .inline {
+        text-align: right;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color: black;
+        display: inline-block;
+        margin-top: 0;
+    }
+
+.section {
+    height: 800px;
+    width: 100%;
+    right: 100px;
+    margin-bottom: 25px;
+
+}
+
+ .aside {
+        box-sizing: content-box;
+        width: 200px;
+        height: 885px;
+        border: 3px solid black;
+        margin-left: 5px;
+        position: relative;
+    }
+.aside h2 {
+    margin-left: 40px;
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: underline solid var(--primary);
+}
+.aside h3 {
+    margin-top: 250px;
+    margin-left: 45px;
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: underline solid var(--primary);
+}
+.aside h4 {
+    margin-left: 35px;
+    margin-top: 325px;
+    font-size: 25px;
+    font-family: fantasy;
+    text-decoration: underline solid var(--primary);
+}
+
+
+  #content1 {
+    box-sizing: content-box;
+    width: 80%;
+    height: 150px;
+    padding: 30px;
+    left: 500px;
+    border: 3px solid var(--accent);
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 20px;
+    text-align: center;
+    font-family: fantasy;
+  }
+  
+  #content2 {
+    box-sizing: content-box;
+    width: 80%;
+    height: 400px;
+    padding: 30px;
+    margin-left: 20px;
+    float: right;
+    left: 500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border: 3px solid var(--accent);
+  }
+
+  .article {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.article img {
+    width:400px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 50px;
+    position: relative;
+    padding: 5px;
+}
+.article2 {
+    margin-top: -250px;
+    margin-left: 700px;
+    
+}
+
+main article img:hover {
+    opacity: .5;
+}
+
+.hortext {
+    position: absolute;
+    left: 250px;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 35px;
+    color: lightgray;
+}
+
+.miniptext {
+    position: absolute;
+    margin-left: 100px;
+    top: 625px;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 20px;
+    color: lightgray;
+}
+
+
+  #img {
+    background-image: url(./assets/Flowers.png);
+    opacity: .5;
+    width: 50px;
+  }
+    #About-Me {
+        font-size: 20px;
+    }
+
+    #Projects {
+        font-size: 20px;
+    }
+
+    #contact-me {
+        font-size: 20px;
+    }
+
+
+    .footer {
+        width: 83%;
+        height: 50px;
+        float: right;
+        text-align: center;
+        background-color: var(--primary);
+        color: white;
+        margin: 5px;
+        margin-right: 2px;
+        padding: 5px;
+        word-spacing: 100px;
+        }
+
+    .footer h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: lighter;
+        display: inline-block;
+        margin-top: 5px;
+        color: black;
+    }
+
+    .footer h2 a {
+        color: black;
+    }
+    
+    footer h2 a:hover {
+        color: lightgray;
+    }
+
+
+
+    img {
+        position: relative;
+        border-radius: 100px;
+        width: 180px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    /*Changes h1 color to white*/
+    @media screen and (max-width: 1261px) {
+        header h1 {
+        text-shadow: 2px 2px 5px rgba(26, 54, 26, 0.876);
+        }
+    }
+/* changes Bio border length*/
+    @media screen and (max-width: 1261px) {
+        #content1 {
+            width: 70%;
+        }
+    }
+/* changes project content border length*/
+    @media screen and (max-width: 1261px) {
+        #content2 {
+            width: 70%;
+        }
+    }
+
+    @media screen and (max-width: 1261px) {
+        .article img {
+            width: 300px;
+            padding: 30px;
+            margin-top: 10px;
+            margin-right: 0px;
+            margin-left: 60px;
+            position: relative;
+        }
+    }
+
+    @media screen and (max-width: 1261px) {
+        .footer {
+            width: 75%;
+            }
+    }
+
+
+
+    @media screen and (max-width: 1050px) {
+        #content1 {
+            box-sizing: content-box;
+            width: 90%;
+            height: 200px;
+            padding: 30px;
+            left: 450px;
+            border: 3px solid var(--accent);
+            float: center;
+            margin-top: 150px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: 15px;
+            text-align: center;
+            font-family: fantasy;
+          }
+
+    }
+
+    @media screen and (max-width: 1050px) {
+        #content2 {
+            box-sizing: content-box;
+            width: 90%;
+            height: 400px;
+            padding: 30px;
+            margin-left: 20px;
+            float: right;
+            left: 500px;
+            margin-top: 100px;
+            margin-bottom: 10px;
+            border: 3px solid var(--accent);
+          }
+    }
+
+    @media screen and (max-width: 1050px) {
+        .miniptext {
+            position: absolute;
+            margin-left: 100px;
+            top: 818px;
+            transform: translate(-50%, -50%);
+            font-family: cursive;
+            font-size: 20px;
+            color: lightgray;
+        }
+    }
+
+    @media screen and (max-width: 1051px) {
+        .aside {
+           display: none;
+        }
+    }
+
+
+    @media screen and (max-width: 1051px) {
+        .footer {
+            width: 100%;
+            height: 50px;
+            float: right;
+            text-align: center;
+            background-color: var(--primary);
+            color: white;
+            margin: 5px;
+            padding: 5px;
+            word-spacing: 100px;
+            }
+        
+    }
+
+    @media screen and (max-width: 960px) {
+        #content2 {
+            box-sizing: content-box;
+            width: 90%;
+            height: 600px;
+            padding: 30px;
+            margin-left: 20px;
+            float: right;
+            left: 500px;
+            margin-top: 100px;
+            margin-bottom: 10px;
+            border: 3px solid var(--accent);
+          }
+    }
+
+    @media screen and (max-width: 960px) {
+        .article img {
+            width:400px;
+            padding: 30px;
+            margin-top: 10px;
+            margin-right: 0px;
+            margin-left: 250px;
+            position: relative;
+            padding: 5px;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .article2 {
+            margin-top: 100px;
+            margin-left: 350px;
+            
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .hortext {
+            position: absolute;
+            left: 450px;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            font-family: cursive;
+            font-size: 35px;
+            color: lightgray;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .miniptext {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 40%;
+            transform: translate(-50%, -50%);
+            font-family: cursive;
+            font-size: 20px;
+            color: lightgray;
+        }
+    }
