@@ -163,6 +163,22 @@ aside img {
     margin-left: 940px;
 }
 
+.article4 {
+    margin-top: 25px;
+    margin-left: 940px;
+}
+
+.article5 {
+    margin-top: -130px;
+    margin-left: 650px;
+}
+
+.article6 {
+    margin-top: 15px;
+    margin-left: 650px;
+}
+
+
 main article img:hover {
     opacity: .5;
 }
@@ -196,6 +212,36 @@ main article img:hover {
     font-size: 20px;
     color: lightgray;
 
+}
+
+.svgText {
+    position: absolute;
+    margin-left: 88px;
+    top: 670px;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 20px;
+    color: lightgrey;
+}
+
+.readmeText {
+    position: absolute;
+    margin-left: 88px;
+    top: 675px;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.etText {
+    position: absolute;
+    margin-left: 88px;
+    top: 815px;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 18px;
+    color: lightgrey;
 }
 
   #img {
