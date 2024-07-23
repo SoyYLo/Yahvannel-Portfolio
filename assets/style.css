@@ -195,7 +195,7 @@ main article img:hover {
     transform: translate(-50%, -50%);
     font-family: cursive;
     font-size: 35px;
-    color: lightgray;
+    color: rgb(131, 188, 162);
 }
 
 .ptText {
