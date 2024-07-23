@@ -178,12 +178,17 @@ aside img {
     margin-left: 650px;
 }
 
+.article7 {
+    margin-top: -129px;
+    margin-left: 940px;
+}
+
 
 main article img:hover {
     opacity: .5;
 }
 
-.laText {
+.nccText {
     position: absolute;
     left: 250px;
     top: 40%;
@@ -235,6 +240,16 @@ main article img:hover {
 }
 
 .etText {
+    position: absolute;
+    margin-left: 88px;
+    top: 815px;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 18px;
+    color: lightgrey;
+}
+
+.laText {
     position: absolute;
     margin-left: 88px;
     top: 815px;
