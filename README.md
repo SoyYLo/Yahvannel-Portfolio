@@ -18,4 +18,5 @@ https://soyylo.github.io/Yahvannel-Portfolio/
 
 ## Screenshot 
 
-<img width="1507" alt="Screenshot 2024-04-13 at 8 03 04 AM" src="https://github.com/SoyYLo/Yahvannel-Portfolio/assets/161881415/938fa535-e7af-48ef-8ab2-01754608492c">
+
+<img width="1506" alt="Screenshot 2024-08-26 at 6 04 25 PM" src="https://github.com/user-attachments/assets/8f7dc2c5-a0cb-4658-98a5-f9ccb4b0a320">
