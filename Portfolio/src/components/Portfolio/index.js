@@ -15,7 +15,7 @@ function Portfolio() {
 				
 			],
 			github: 'https://github.com/SoyYLo/Le-Appetite',
-			deployed: 'https://soyylo.github.io/Le-Appetite/',
+			link: 'https://soyylo.github.io/Le-Appetite/',
 		},
 		{
 			name: 'Nerds Culinary Crafting',
@@ -31,7 +31,7 @@ function Portfolio() {
 				'Deployed through Render',
 			],
 			github: 'https://github.com/bcbrauneis/nerdsculinarycrafting',
-			deployed: 'https://nerdsculinarycrafting-1.onrender.com',
+			link: 'https://nerdsculinarycrafting-1.onrender.com',
 		},
 		{
 			name: 'My Blog',
@@ -44,7 +44,7 @@ function Portfolio() {
 				'CSS',
 			],
 			github: 'https://github.com/SoyYLo/The-Best-Blog',
-			deployed: 'https://soyylo.github.io/The-Best-Blog/index.html',
+			link: 'https://soyylo.github.io/The-Best-Blog/index.html',
 		},
 		{
 			name: 'Readme Template',
@@ -58,7 +58,7 @@ function Portfolio() {
                 'Node',
             ],
 			github: 'https://github.com/SoyYLo/ReadmeTemplate',
-			demo: 'https://drive.google.com/drive/folders/1jR1KjJwbtQUZQN9rGWYdE1_NNL05QpBY?usp=sharing',
+			link: 'https://drive.google.com/drive/folders/1jR1KjJwbtQUZQN9rGWYdE1_NNL05QpBY?usp=sharing',
 		},
 		{
 			name: 'Employee Tracker',
@@ -71,7 +71,7 @@ function Portfolio() {
                 'Node',
             ],
 			github: 'https://github.com/SoyYLo/Employee-Tracker',
-			demo: 'https://drive.google.com/file/d/1RemwdLlAq6U4PrTue52pn2eB6FFo9Y0x/view?usp=sharing',
+			link: 'https://drive.google.com/file/d/1RemwdLlAq6U4PrTue52pn2eB6FFo9Y0x/view?usp=sharing',
 		},
 	];
     return (
