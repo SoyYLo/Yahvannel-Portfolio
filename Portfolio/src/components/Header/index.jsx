@@ -1,5 +1,7 @@
 import React from "react";
 import Navigation from "../Navigation";
+import './index.css';
+import App from './App';
 
 function Header(props) {
 	const { currentTab, setCurrentTab } = props;
