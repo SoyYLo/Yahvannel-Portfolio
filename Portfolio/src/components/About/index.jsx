@@ -11,7 +11,7 @@ function About() {
                         <img src="./professional-photo.png" alt="image" loading="lazy" width="" height="" />
                     </div>
                     <div class="md:7/12 lg:w-6/12">
-                        <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">About Me</h2>
+                        <h2 class="bgtext-2xl text-gray-900 font-bold md:text-4xl">About Me</h2>
                         <p class="mt-6 text-gray-600">I am a Full Stack Web Developer that specializes in Frontend Development and UI/UX design.
                             I love exciting and challenging opportunities to grow in becoming a great, successful professional.
                             I recently invested in myself and completed a coding bootcamp course through the University of Texas at Austin.
