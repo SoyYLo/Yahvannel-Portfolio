@@ -41,16 +41,9 @@ function Project(props) {
 					<div class="py-10 px-8">
 						<h3 class="text-2xl font-bold">{name}</h3>
 						<div class="text-gray-600 text-sm font-medium flex mb-4 mt-2">
-							<p>Provided by&nbsp;</p>
-							<a
-								href="https://www.ls.graphics/"
-								class="hover:text-black transition duration-300 ease-in-out"
-							>LS Graphics</a
-							>
 						</div>
 						<p class="leading-7">
-							High quality notepad mockup in a huge resolution and with
-							changeable everything.
+							{`${description}`}
 						</p>
 						<div class="mt-10 flex justify-between items-center">
 							<div>
@@ -64,7 +57,7 @@ function Project(props) {
 								href="https://collect.criggzdesign.com/index.php/resources/mockups/notepad/"
 								class="flex items-center"
 							>
-								<p class="mr-4">Read more</p>
+					
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="14.125"
