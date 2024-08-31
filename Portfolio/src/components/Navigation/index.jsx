@@ -4,6 +4,15 @@ function Navigation(props) {
 	const { currentTab, setCurrentTab } = props;
 
 	return (
+		<div class="sm:mb-0 self-center">
+			<a href="#" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1"><span onClick={() => setCurrentTab("about")}>About Me</span></a>
+			<a href="#" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1"><span onClick={() => setCurrentTab("portfolio")}>Portfolio</span></a>
+			<a href="#" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1"><span onClick={() => setCurrentTab("contact")}>Contact</span></a>
+			<a href="#" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1"><span onClick={() => setCurrentTab("resume")}>Resume</span></a>
+		</div>
+	)
+
+	return (
 		<nav>
 			<ul className="flex-row mobile-view">
 				<li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>

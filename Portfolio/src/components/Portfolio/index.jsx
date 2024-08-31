@@ -11,8 +11,8 @@ function Portfolio() {
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
-                'API',
-				
+				'API',
+
 			],
 			github: 'https://github.com/SoyYLo/Le-Appetite',
 			link: 'https://soyylo.github.io/Le-Appetite/',
@@ -26,8 +26,8 @@ function Portfolio() {
 				'CSS',
 				'JavaScript',
 				'Express & Sequelize',
-                'NPM',
-                'Handlebars',
+				'NPM',
+				'Handlebars',
 				'Deployed through Render',
 			],
 			github: 'https://github.com/bcbrauneis/nerdsculinarycrafting',
@@ -51,12 +51,12 @@ function Portfolio() {
 			description:
 				'This is  a README Generator where other developers and I can have a template to quickly create a README file for a new project.',
 			technologies: [
-                'Inquirer',
-                'NPM',
-                'JSON',
-                'JavaScript',
-                'Node',
-            ],
+				'Inquirer',
+				'NPM',
+				'JSON',
+				'JavaScript',
+				'Node',
+			],
 			github: 'https://github.com/SoyYLo/ReadmeTemplate',
 			link: 'https://drive.google.com/drive/folders/1jR1KjJwbtQUZQN9rGWYdE1_NNL05QpBY?usp=sharing',
 		},
@@ -65,45 +65,63 @@ function Portfolio() {
 			description:
 				'An application where employers can view and manage the departments, roles and employees in their company So that the may organize and keep track of their business',
 			technologies: [
-                'JavaScript', 
-                'Inquirer',
-                'SQL',
-                'Node',
-            ],
+				'JavaScript',
+				'Inquirer',
+				'SQL',
+				'Node',
+			],
 			github: 'https://github.com/SoyYLo/Employee-Tracker',
 			link: 'https://drive.google.com/file/d/1RemwdLlAq6U4PrTue52pn2eB6FFo9Y0x/view?usp=sharing',
 		},
 	];
-    return (
-		<section>
-			<div className="center">
-				<h1 className="page-header">My Portfolio</h1>
+
+	return (
+		<>
+			<div
+				class="container mx-auto mt-20 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3"
+			>
+				<Project projects={projects[0]}></Project>
+				<Project projects={projects[1]}></Project>
+				<Project projects={projects[2]}></Project>
+				<Project projects={projects[3]}></Project>
+				<Project projects={projects[4]}></Project>
+
 			</div>
-			<div>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[0]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[1]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[2]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[3]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[4]}></Project>
-					</li>
-				</ul>
-			</div>
-		</section>
-	);
+
+		</>
+	)
+
+
+	// return (
+	// 	<section>
+	// 		<div className="center">
+	// 			<h1 className="page-header">My Portfolio</h1>
+	// 		</div>
+	// 		<div>
+	// 			<ul className="flex-row mobile-row">
+	// 				<li className="padding">
+	// 					<Project projects={projects[0]}></Project>
+	// 				</li>
+	// 				<li className="padding">
+	// 					<Project projects={projects[1]}></Project>
+	// 				</li>
+	// 			</ul>
+	// 			<ul className="flex-row mobile-row">
+	// 				<li className="padding">
+	// 					<Project projects={projects[2]}></Project>
+	// 				</li>
+	// 				<li className="padding">
+	// 					<Project projects={projects[3]}></Project>
+	// 				</li>
+	// 			</ul>
+	// 			<ul className="flex-row mobile-row">
+	// 				<li className="padding">
+	// 					<Project projects={projects[4]}></Project>
+	// 				</li>
+	// 			</ul>
+	// 		</div>
+	// 	</section>
+	// );
 }
 
 export default Portfolio;
