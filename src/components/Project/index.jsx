@@ -47,14 +47,14 @@ function Project(props) {
 						</p>
 						<div class="mt-10 flex justify-between items-center">
 							<div>
-								<img
-									src="https://collect.criggzdesign.com/wp-content/uploads/2020/07/Ps.svg"
+								<a href={`${gitLink}`}><img
+									src="./github-logo.png"
 									alt=""
 									class="w-6"
-								/>
+								/></a>
 							</div>
 							<a
-								href="https://collect.criggzdesign.com/index.php/resources/mockups/notepad/"
+								href={`${appLink}`}
 								class="flex items-center"
 							>
 					

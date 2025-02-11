@@ -47,9 +47,10 @@ function Portfolio() {
 			link: 'https://soyylo.github.io/The-Best-Blog/index.html',
 		},
 		{
-			name: 'Readme Template',
+			name: 'Git Fit',
 			description:
 				'This is  a README Generator where other developers and I can have a template to quickly create a README file for a new project.',
+				image: 'gitfit.png',
 			technologies: [
 				'Inquirer',
 				'NPM',
@@ -57,13 +58,14 @@ function Portfolio() {
 				'JavaScript',
 				'Node',
 			],
-			github: 'https://github.com/SoyYLo/ReadmeTemplate',
-			link: 'https://drive.google.com/drive/folders/1jR1KjJwbtQUZQN9rGWYdE1_NNL05QpBY?usp=sharing',
+			github: ' https://github.com/cococnde/git-fit',
+			link: ' https://git-fit-2.onrender.com',
 		},
 		{
 			name: 'Employee Tracker',
 			description:
 				'An application where employers can view and manage the departments, roles and employees in their company So that the may organize and keep track of their business',
+				
 			technologies: [
 				'JavaScript',
 				'Inquirer',
