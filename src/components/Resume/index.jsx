@@ -62,7 +62,7 @@ function Resume() {
 						<hr class="my-4"></hr>
 
 						<div>
-							<a href="https://drive.google.com/file/d/1-6SzEaDeR2KNNdZXQdY3AvPfO72QmJRA/view?usp=sharing" >
+							<a href="https://drive.google.com/file/d/1Y4g5r3BtjrwaUlJ66ei309tX-ROX0rLx/view?usp=sharing" >
 								<h4 class="text-lg underline">View my Resume </h4>
 							</a>
 							<h3 class="text-lg font-semibold mb-2">Front-End Skills</h3>
