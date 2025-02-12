@@ -46,48 +46,40 @@ function Contact() {
 
 	return (
 		<section>
-			<div className="center">
-				<h2 className="page-header">Contact Me</h2>
+			<div class="align-center">
+				<h2 class="page-header">Contact Me</h2>
 			</div>
 			<div>
-				<form id="contact-form">
-					<div>
-						<label htmlFor="Name">Name:</label>
-						<br></br>
-						<input
-							type="text"
-							defaultValue={name}
-							onBlur={handleBlank}
-							name="Name"
-						/>
-                        </div>
-					<div>
-						<label htmlFor="email">Email address:</label>
-						<br></br>
-						<input
-							type="email"
-							defaultValue={email}
-							name="email"
-							onBlur={handleChange}
-						/>
-					</div>
-					<div>
-						<label htmlFor="Message">Message:</label>
-						<br></br>
-						<textarea
-							name="Message"
-							defaultValue={message}
-							onBlur={handleBlank}
-							rows="5"
-						/>
-					</div>
-					{errorMessage && (
-						<div>
-							<p className="error-text">{errorMessage}</p>
-						</div>
-					)}
-					<button type="submit">Submit</button>
-				</form>
+			<form class="w-full max-w-lg justify-center">
+  <div class="flex flex-wrap -mx-3 mb-6">
+    <div class="w-full px-3">
+      <label class="block uppercase tracking-wide text-gray-700 text-md text-center font-bold mb-2" for="grid-password">
+        E-mail
+      </label>
+	  <p class="font-serif text-sm text-center"> yahvannellopez@gmail.com </p>
+    </div>
+  </div>
+  <div class="flex flex-wrap -mx-3 mb-6">
+    <div class="w-full px-3">
+      <label class="block uppercase tracking-wide text-gray-700 text-md text-center font-bold mb-2" for="grid-password">
+        GitHub
+      </label>
+	  <p class="text-center"> https://github.com/SoyYLo </p>
+    </div>
+  </div>
+  <div class="flex flex-wrap -mx-3 mb-6">
+    <div class="w-full px-3">
+      <label class="block uppercase tracking-wide text-gray-700 text-md text-center font-bold mb-2" for="grid-password">
+        LinkedIn
+      </label>
+	  <p class="text-center">https://www.linkedin.com/in/yahvannel-lopez-48895977/</p>
+    </div>
+  </div>
+  <div class="md:flex md:items-center">
+   
+    <div class="md:w-2/3"></div>
+  </div>
+</form>
 			</div>
 		</section>
 	);
