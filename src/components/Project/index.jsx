@@ -37,7 +37,7 @@ function Project(props) {
 						alt=""
 					/>
 				</div>
-				<div class="relative bg-blue-200">
+				<div class="relative bg-gray-200">
 					<div class="py-10 px-8">
 						<h3 class="text-2xl font-bold">{name}</h3>
 						<div class="text-gray-600 text-sm font-medium flex mb-4 mt-2">

@@ -14,8 +14,8 @@ function About() {
                         <h2 class="bgtext-2xl text-gray-900 font-bold md:text-4xl">About Me</h2>
                         <p class="mt-6 text-gray-600">I am a Full Stack Web Developer that specializes in Frontend Development and UI/UX design.
                             I love exciting and challenging opportunities to grow in becoming a great, successful professional.
-                            I recently invested in myself and completed a coding bootcamp course through the University of Texas at Austin.
-                            I received my certification and wish to continue to grow in my knowledge and become a strong web developer.</p>
+                            I have my professional certification in coding and computer science through the University of Texas at Austin. I am also pursuing a professional certification in UX design.
+                            My goal to continue to grow in my knowledge and become a strong web developer.</p>
                         {/* <p class="mt-4 text-gray-600"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p> */}
                     </div>
                 </div>
