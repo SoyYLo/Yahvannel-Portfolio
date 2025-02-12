@@ -62,18 +62,17 @@ function Portfolio() {
 			link: ' https://git-fit-2.onrender.com',
 		},
 		{
-			name: 'Employee Tracker',
+			name: 'Purple Haze Nailz',
 			description:
-				'An application where employers can view and manage the departments, roles and employees in their company So that the may organize and keep track of their business',
-				
+				'A website for a first time business owner where clients may view services and contact the owner.',
+				image: 'purpleHaze.png',
 			technologies: [
-				'JavaScript',
-				'Inquirer',
-				'SQL',
-				'Node',
+				'HTML',
+				'CSS',
+				'UX Design'
 			],
-			github: 'https://github.com/SoyYLo/Employee-Tracker',
-			link: 'https://drive.google.com/file/d/1RemwdLlAq6U4PrTue52pn2eB6FFo9Y0x/view?usp=sharing',
+			github: 'https://github.com/SoyYLo/PurpleHazeNailz',
+			link: 'https://soyylo.github.io/PurpleHazeNailz/',
 		},
 	];
 
